@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(images/3.jpg);
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.image-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	height: auto;
+}
+
+.image-big {
+	width: 100%;
+	height: auto;
+}
+
+.image {
+	position: fixed;
+	width: 4%;
+	height: auto;
+}
+
+.image-main:hover .image1 {
+	transform: translate(-900%, -450%);
+}
+
+.image-main:hover .image2 {
+	transform: translate(0%, -450%);
+}
+
+.image-main:hover .image3 {
+	transform: translate(900%, -450%);
+}
+
+.image-main:hover .image4 {
+	transform: translate(900%, 0%);
+}
+
+.image-main:hover .image5 {
+	transform: translate(900%, 450%);
+}
+
+.image-main:hover .image6 {
+	transform: translate(0%, 450%);
+}
+
+.image-main:hover .image7 {
+	transform: translate(-900%, 450%);
+}
+
+.image-main:hover .image8 {
+	transform: translate(-900%, 0%);
+}
+
+.image1 {
+	transition-delay: 0.1s;
+	transition-duration: 2s; 
+}
+
+.image2 {
+	transition-delay: 0.2s;
+	transition-duration: 2s; 
+}
+
+.image3 {
+	transition-delay: 0.3s;
+	transition-duration: 2s; 
+}
+
+.image4 {
+	transition-delay: 0.4s;
+	transition-duration: 2s; 
+}
+
+.image5 {
+	transition-delay: 0.5s;
+	transition-duration: 2s; 
+}
+
+.image6 {
+	transition-delay: 0.6s;
+	transition-duration: 2s; 
+}
+
+.image7 {
+	transition-delay: 0.7s;
+	transition-duration: 2s; 
+}
+
+.image8 {
+	transition-delay: 0.8s;
+	transition-duration: 2s; 
+}
