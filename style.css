@@ -4,63 +4,68 @@ body {
 	background-image: url(images/3.jpg);
 }
 
-.main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+main {
 	width: 100vw;
 	height: 100vh;
 }
 
-.image-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.main-content {
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	transform: translate(173.5%, 0 );
 	width: 20%;
 	height: auto;
+	transition-duration: 3s;
+	align-items: center;]
+	justify-content: center;
+	display: flex;
 }
 
 .image-big {
+	position: absolute;
 	width: 100%;
 	height: auto;
 }
 
 .image {
-	position: fixed;
-	width: 4%;
+	position: absolute;
+	left: %;
+	width: 30%;
 	height: auto;
+	transform: translate(110%, 0%);
 }
 
-.image-main:hover .image1 {
-	transform: translate(-900%, -450%);
+.main-content:hover .image1 {
+	transform: translate(-500%, -300%);
 }
 
-.image-main:hover .image2 {
-	transform: translate(0%, -450%);
+.main-content:hover .image2 {
+	transform: translate(110%, -300%);
 }
 
-.image-main:hover .image3 {
-	transform: translate(900%, -450%);
+.main-content:hover .image3 {
+	transform: translate(740%, -300%);
 }
 
-.image-main:hover .image4 {
-	transform: translate(900%, 0%);
+.main-content:hover .image4 {
+	transform: translate(740%, 0%);
 }
 
-.image-main:hover .image5 {
-	transform: translate(900%, 450%);
+.main-content:hover .image5 {
+	transform: translate(740%, 300%);
 }
 
-.image-main:hover .image6 {
-	transform: translate(0%, 450%);
+.main-content:hover .image6 {
+	transform: translate(110%, 300%);
 }
 
-.image-main:hover .image7 {
-	transform: translate(-900%, 450%);
+.main-content:hover .image7 {
+	transform: translate(-500%, 300%);
 }
 
-.image-main:hover .image8 {
-	transform: translate(-900%, 0%);
+.main-content:hover .image8 {
+	transform: translate(-500%, 0%);
 }
 
 .image1 {
@@ -102,3 +107,5 @@ body {
 	transition-delay: 0.8s;
 	transition-duration: 2s; 
 }
+
+
